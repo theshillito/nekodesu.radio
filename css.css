@@ -1458,10 +1458,21 @@ blockquote p {
       padding-top:10px;
       font-size:1.5em;
     }
+    .datetimesmall{
+      padding-top:4px;
+      font-size:0.8em;
+    }
     .listenagain{
       
     }
     .nkdsu{
       font-size:60px;
       padding-bottom:30px;
+    }
+
+    .lang{
+      position:fixed;
+      font-size:16px;
+      top:0;
+      right:0;
     }
