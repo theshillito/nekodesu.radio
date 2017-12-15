@@ -1476,3 +1476,7 @@ blockquote p {
       top:0;
       right:0;
     }
+
+    .gap{
+      margin-bottom:32px;
+    }
