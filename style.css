@@ -58,7 +58,8 @@ a:hover {
 }
 
 #lang {
-    padding: 1.5em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
     background-color: #343434;
     color: white;
     text-align: right;
