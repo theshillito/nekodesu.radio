@@ -2,19 +2,20 @@
 
 html,
 body {
-  font-size: 100%; }
+    font-size: 100%; 
+}
 
 body {
-  background: #f7f7f7;
-  color: #222222;
-  padding: 0;
-  margin: 0;
-  font-family: 'Bitter', serif;
-  font-weight: normal;
-  font-style: normal;
-  line-height: 1;
-  position: relative;
-  text-align: center;
+    background: #f7f7f7;
+    color: #222222;
+    padding: 0;
+    margin: 0;
+    font-family: 'Bitter', serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    position: relative;
+    text-align: center;
 }
 
 @media (max-width:1000px){
