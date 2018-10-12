@@ -81,3 +81,13 @@ a:hover {
     font-size: 1.25em;
 }
 
+.datetime {
+    padding-top:10px;
+    font-size:1.5em;
+}
+  
+.datetimesmall {
+    padding-top:4px;
+    font-size:0.8em;
+}
+
