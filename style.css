@@ -17,6 +17,16 @@ body {
   text-align: center;
 }
 
+@media (max-width:1000px){
+    .link-panel {
+        padding-bottom: 1.5em;
+    }
+
+    .social-link {
+        padding-bottom: 0.75em;
+    }
+}
+
 .h1 {
     color: #e87c36 !important;
     font-size: 6em;  
@@ -43,6 +53,10 @@ a {
 
 a:hover {
     color: #f3ab7b;
+}
+
+.link-panel {
+    margin-bottom: 0em;
 }
 
 .weblink {
