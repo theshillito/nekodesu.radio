@@ -1,59 +1,78 @@
 <!doctype html>
 <html class="no-js" lang="ja">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>アニソンと人間の司会</title>
-    <link rel="stylesheet" href="css.css" />
-  </head>
-  <body>
-    <div class="lang">
-      <a href="index.html">EN</a> | JP
-    </div>
-    <div class="row">
-      <div class="large-12 columns text-center topblock">
-        <div class="subtitle"><ruby><rb>Peter</rb><rt>ピーター</rt><rb>&nbsp;</rb><rt>・</rt><rb>Shillito</rb><rt>シリトー</rt></ruby>の</div>
-        <br />
-        <div class="title"><ruby><rb>Neko</rb><rt>ネコ</rt>&nbsp;<rb>Desu</rb><rt>デス</rt></ruby></div>
-        <div class="description">アニソンと人間の司会</div>
-        <div class="datetime"><a href="https://www.localtime.jp/europe/uk/">土曜日21〜23時GMT/BST</a></div>
-        <div class="datetimesmall">(夏：２９〜３１時／冬：３０〜３２時)</div>
-        <div class="datetime"><a href="http://thisisthecat.com">The Cat</a>に</div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="medium-4 medium-offset-2 columns text-center">
-        <h2>曲リクエスト</h2>
-        <div class="nkdsu"><a href="http://nkd.su">nkd.su</a></div>
-      </div>
-      <div class="medium-4 columns text-center end">
-        <h2>遡って聴く</h2>
-        <div class="nkdsu"><a href="http://www.mixcloud.com/NekoDesu/">Mixcloud</a></div>
-      </div>
-    </div>
-    <div class="row gap">
-        <h2 class="text-center">SNS</h2>
-        <div class="medium-3 medium-offset-1 columns text-center">
-          番組をフォロー<br /><img src="twitter.svg" width="16px" />
-          <a href="https://twitter.com/NekoDesuRadio">@NekoDesuRadio</a>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>アニソンと人間の司会</title>
+        <!-- Use Bootstrap for column layout -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container-fluid">
+            <!-- Langauge Bar -->
+            <div id ="lang" class="row">
+                <div class="col-sm-12">
+                    <div class="lang">
+                        <a href="index.html">English</a> | 日本語
+                    </div>
+                </div>
+            </div>
+            <!-- Heading -->
+            <div id="heading" class="row">
+                <div class="col-lg-12">
+                    <h4 class="text-white"><ruby><rb>Peter</rb><rt>ピーター</rt><rb>&nbsp;</rb><rt>・</rt><rb>Shillito</rb><rt>シリトー</rt></ruby>の</h4>
+                    <h2 class="text-white">ネコです</h2>
+                    <h1 class="heading-text">Neko Desu</h1>
+                    <h2 class="text-white">アニソンと人間の司会</h2>
+                </div>
+            </div>
+            <!-- Main Links -->
+            <div id="links" class="row body-padding">      
+                <div class="col-md-4 link-panel">
+                    <h3>曲リクエスト</h3>
+                    <a class="weblink" href="http://nkd.su">nkd.su</a>
+                </div>
+                <div class="col-md-4 link-panel">
+                    <h3>ショーを聞く</h3>
+                    <div class="datetime"><a href="https://www.localtime.jp/europe/uk/">土曜日21〜23時GMT/BST</a></div>
+                    <div class="datetimesmall">(夏：２９〜３１時／冬：３０〜３２時)</div>
+                    <p><a class="weblink" href="http://thisisthecat.com">The Cat</a>に</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>遡って聴く</h3>
+                    <a class="weblink" href="http://www.mixcloud.com/NekoDesu/">Mixcloud</a>
+                </div>
+            </div>
+            <!-- Social -->
+            <div class="row body-padding">
+                <div class="col-md-12">
+                    <h2>SNS</h2>
+                </div>
+            </div>
+            <div class="row social">
+                <div class="col-md-4 social-link">
+                    番組をフォロー<br /><img src="twitter.svg" width="16px" />
+                    <a href="https://twitter.com/NekoDesuRadio">@NekoDesuRadio</a>
+                </div>
+                <div class="col-md-4 social-link">
+                    司会をフォロー<br />
+                    <img src="twitter.svg" width="16px" />&nbsp;<a href="https://twitter.com/theshillito">@theshillito</a>&nbsp; 
+                    <img src="kirakiratter.svg" width="20px" />&nbsp;<a href="https://kirakiratter.com/@theshillito">@theshillito</a>
+                </div>
+                <div class="col-md-4 social-link">
+                    会話をフォロー<br />
+                    <img src="twitter.svg" width="16px" />
+                    <a href="https://twitter.com/hashtag/NekoDesu?src=hash">#NekoDesu</a>
+                </div>
+            </div>
+            <!-- Charity -->
+            <div class="row body-padding">
+                <div class="col-lg-12">
+                    <h3>シリトーさんのチャリティーコンパクト盤をダウンロード</h3>
+                    <a class="weblink" href="http://desus.bandcamp.com/album/take-back-love-city">Take Back Love City (恋愛シティーを取り戻せ)</a>
+                </div>
+            </div> 
         </div>
-        <div class="medium-4 columns text-center">
-          司会をフォロー<br />
-          <img src="twitter.svg" width="16px" />&nbsp;<a href="https://twitter.com/theshillito">@theshillito</a>&nbsp; 
-          <img src="kirakiratter.svg"" width="20px" />&nbsp;<a href="https://kirakiratter.com/@theshillito">@theshillito</a>
-        </div>
-        <div class="medium-3 columns text-center end">
-          会話をフォロー<br />
-          <img src="twitter.svg" width="16px" />
-          <a href="https://twitter.com/search?q=nekodesu">#NekoDesu</a>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="large-12 columns text-center">
-        <h3>シリトーさんのチャリティーコンパクト盤をダウンロード<br/> <a href="http://desus.bandcamp.com/album/take-back-love-city">Take Back Love City (恋愛シティーを取り戻せ)</a></h3>
-      </div>
-    </div>
-    
-  </body>
+    </body>
 </html>
